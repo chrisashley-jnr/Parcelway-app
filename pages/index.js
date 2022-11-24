@@ -29,13 +29,13 @@ function DashboardLogin(props) {
           alt="Parcelway Logo"
         />
         <h2 className="admin-login"> {adminLogin}</h2>
-        <div>
+        <div style={{width: "100%"}}>
           <label className="admin-id sourcesanspro-normal-shark-12px">
             {adminId}
           </label>
           <input type="text" className="input-field" name="input-field" />
         </div>
-        <div>
+        <div style={{width: "100%"}}>
           <label className="password sourcesanspro-normal-shark-12px">
             {password}
           </label>

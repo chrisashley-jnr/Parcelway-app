@@ -39,11 +39,11 @@
 }
 
 .admin-login {
-  align-self: flex-start;
+  align-self: center;
   letter-spacing: 0;
   margin-left: 6px;
   line-height: normal;
-  margin-top: 26px;
+  margin-top: 200px;
   min-height: 19px;
   width: 120px;
 }
