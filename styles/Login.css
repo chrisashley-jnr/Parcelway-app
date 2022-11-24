@@ -18,15 +18,116 @@
     pointer-events: auto;
 }
 
-.requests {
-    background-color:var(--white);
-    border: 1px none;
+.dashboard-login {
+    align-items: center;
+    background-color: var(--white);
+    border:1px none;
+    display: flex;
+    flex-direction: column;
     height: 775px;
-    position: relative;
+    padding: 10px 578px;
+    position:relative;
     width: 1440px;
 }
 
-.overlap-group6{
+.parcelway-logo {
+    height: 118px;
+    margin-left: 1px;
+    object-fit: cover;
+    width: 119px;
+}
+
+.admin-login {
+    align-self: flex-start;
+    letter-spacing: 0;
+    margin-left: 6px;
+    line-height: normal;
+    margin-top: 26px;
+    min-height: 19px;
+    width: 120px;
+}
+
+.frame-7 {
+    display: flex;
     align-items: center;
-    background-color: var(--white);
+    align-self: flex-start;
+    letter-spacing: 0;
+    margin-left: 6px;
+    line-height: normal;
+    min-height: 16px;
+    width: fit-content;
+    gap: 6px;
+    border: 1px none;
+}
+
+.vector {
+    height: 14px;
+    min-width: 14px;
+}
+
+.remember-me {
+    color:var(--white);
+    font-family: var(--font-family-source_sans_pro);
+    font-size: var(--font-size-m2);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    width: fit-content;
+}
+
+.group-1 {
+    align-items: flex-start;
+    align-self: flex;
+    margin-top: 15px;
+    min-width: 282px;
+}
+
+.overlap-group {
+    align-items: flex-start;
+    background-color: #4a00f4;
+    border-radius: 4px;
+    display: flex;
+    height: 36px;
+    min-width: 280px;
+    padding: 6px 114.5px;
+}
+
+.login {
+    color: var(--white);
+    font-family: var(--font-family-source_sans_pro);
+    font-size: var(--font-size-xxl);
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 22px;
+    width: 51px;
+}
+
+.for-authorised-persons-only {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: 2px;
+    margin-top: 178px;
+    min-height: 10px;
+    min-width: 94px;
+}
+
+.contact-the-develope {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-right: 2px;
+    margin-top: 8px;
+    min-height: 10px;
+    min-width: 206px;
+}
+
+.form-field {
+    /* background-image: url(rectangle-3.svg); */
+    background-size: 100% 100%;
+    border: 1px none;
+    height: 35px;
+    margin-left: 2px;
+    margin-top: 1px;
+    width: 280px;
 }
