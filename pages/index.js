@@ -33,23 +33,13 @@ function DashboardLogin(props) {
           <label className="admin-id sourcesanspro-normal-shark-12px">
             {adminId}
           </label>
-          <input
-            type="text"
-            className="input-field"
-            name="input-field"
-            value=""
-          />
+          <input type="text" className="input-field" name="input-field" />
         </div>
         <div>
           <label className="password sourcesanspro-normal-shark-12px">
             {password}
           </label>
-          <input
-            type="text"
-            className="input-field"
-            name="input-field"
-            value=""
-          />
+          <input type="text" className="input-field" name="input-field" />
         </div>
         <div className="frame-7">
           <input type="checkbox" name="input-field" value="" />
