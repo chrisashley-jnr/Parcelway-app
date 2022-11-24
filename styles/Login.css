@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600|Source+Sans+3:400,700,600");
+
+.screen a {
+    display: contents;
+    text-decoration: none;
+}
+
+.container-center-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
+}
+
+.container-center-horizontal > *{
+    flex-shrink:0;
+    pointer-events: auto;
+}
+
+.requests {
+    background-color:var(--white);
+    border: 1px none;
+    height: 775px;
+    position: relative;
+    width: 1440px;
+}
+
+.overlap-group6{
+    align-items: center;
+    background-color: var(--white);
+}
